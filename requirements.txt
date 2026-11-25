@@ -1,0 +1,9 @@
+# 必需：数组运算、视频解码/编码、形态学与轮廓
+numpy>=1.21
+opencv-python-headless>=4.6
+
+# 可选：真实姿态（不装则自动降级为「几何代理」模式）
+# mediapipe>=0.10.0
+
+# 可选：YOLO 球员检测后端（--detector yolo）
+# ultralytics>=8.0.0
