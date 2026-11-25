@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本项目的运行产物（报告、片段、缓存）
+out/
+out_*/
+.tmp_tests/
+
+# 视频素材：体积大且属于个人数据，不入库
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 球场标定是个人机位参数，按需决定是否入库；默认忽略
+court.json
+
+# 系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
